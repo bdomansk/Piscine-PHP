@@ -1,0 +1,59 @@
+div {
+	font-size: 1vw;
+}
+img {
+	width: 10%;
+}
+p {
+	margin: 1px;
+}
+td {
+	width: 1%;
+}
+.cover {
+	width: 100%;
+	text-align: center;
+}
+.center {
+	text-align: center;
+}
+.weight {
+	text-align: right;
+	vertical-align: top;
+	margin : 1;
+}
+.number {
+	text-align: left;
+	vertical-align: bottom;
+	margin : 1;
+}
+.non-metal {
+	background: #b8c6dd;
+}
+.noble-gas {
+	background: #2489e2;
+}
+.alkali-metal {
+	background: #f4b45f;
+}
+.alkaline-earh-metal {
+	background: #b7402c;
+}
+.metalloid {
+	background: #c0ed3b;
+}
+.halogen {
+	background: #35eacc;
+}
+.metal {
+	background: #198c1b;
+}
+.transition-metal {
+	background: #f7f320;
+}
+.lanthanide {
+	background: #660999;
+}
+.actinide {
+	background: #ef77b7;
+}

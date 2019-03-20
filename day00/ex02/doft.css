@@ -1,0 +1,128 @@
+body {background: #505050;}
+.cover {
+		width: 1420px;
+		margin: 0 auto;
+}
+.header {
+	width: 1420px;
+	height: 135px;
+	background: #909090;
+	margin : 20px  auto;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+}
+.center {text-align: center;}
+.day {
+	float :left;
+	height: 100%;
+}
+.day img {
+	height: 80%;
+    margin: 10px;
+}
+.reload {
+	float :right;
+	margin:	10px 10px 0 0;
+}
+.img-reload {
+	width: 20px;
+}
+.close {
+	float :right;
+	margin:	110px -20px 0 0;
+}
+.loupe {
+	float :right;
+	margin : 10px;
+}
+.left {
+	width: 140px;
+	height: 425px;
+	background: #909090;
+	float :left;
+	margin : 5px 25px 0;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+}
+
+.mid {
+	width: 1020px;
+	height: 580px;
+	background: #909090;
+	text-align: center;
+	margin : -10px 0 0 0;
+	float :left;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+}
+.right {
+	width: 140px;
+	height: 425px;
+	background: #909090;
+	margin : -10px 25px 0 20px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+	float :left;
+}
+.mid img {
+	width: 999px;
+    height: 560px;
+    margin : 10px 0  0;
+}
+.left img {
+	margin: 3px 0 0 33px;
+	width: 70px;
+    height: 70px;
+}
+.right img {
+
+	margin: 10px 0 0 35px;
+	width: 70px;
+    height: 70px;
+}
+.brick {
+    height: 65px;
+    width: 115px;
+    margin: 0px 10px 0 10px;
+    background: url(resources/brick.jpg) repeat left bottom;
+}
+
+.oeil{
+	border :5px solid red;
+	border-radius: 10px;
+}
+.green {
+	background: #A5FC96;
+	width: 520px;
+	height: 170px;
+	background: #88ff89;
+	border-radius: 10px;
+	margin : 510px 200px 0px -50px;
+	box-shadow: 10px 10px 10px black;
+	position: absolute;
+	font: 16px arial, serif;
+    letter-spacing: 1px;
+}
+.entrez {font-size: 33px;}
+.shadow {text-shadow: 5px 5px 5px #ff0000;}
+.text {margin:5px 0 0 8px;}
+.input{
+    width: 376px;
+    height: 15px;
+    margin: 0 0 0 2px;
+    border: 2px solid #9d969d;
+    border-bottom-color: #eeeeee;
+    border-right-color: #eeeeee;
+}
+.submit {
+    height: 22px;
+    margin: 0 0 0 4px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background: #F3F4F4;
+    border: 1px solid #a8a4a5;
+    border-radius: 1px;
+}
+li {list-style: none;}
+
+

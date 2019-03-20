@@ -1,0 +1,422 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    line-height: 130%;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+body{
+    background: #F2F2F2;
+}
+/* Main & Categories */
+.ct{
+    width: 1080px;
+    margin: 5px auto 0 auto;
+}
+.header{
+    height: 83px;
+    background-color: #5476A4;
+    border-radius: 5px;
+}
+.header h1{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    float :left;
+    margin : 0 35px 0 15px;
+    line-height: 69px;
+    letter-spacing: 5px;
+}
+ .login {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    float :right;
+    margin : 0 30px 0 0px;
+    line-height: 83px;
+    letter-spacing: 5px;
+}
+.header a{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    float :left;
+    margin : 0 0 0 15px;
+    line-height: 83px;
+    letter-spacing: 5px;
+}
+.logout{
+    width: 32px;
+    float :right;
+    margin: 25px -265px -15px 5px;
+}
+
+.basket{
+    width: 37px;
+    float :right;
+    margin: 21px -231px -15px 5px;
+}
+.basket2{
+    width: 37px;
+    float :right;
+    margin: 21px 0px -15px 5px;
+}
+.logout2{
+    width: 32px;
+    float :right;
+    margin: 25px -120px -15px 5px;
+}
+.basket3{
+    width: 37px;
+    float :right;
+    margin: 21px 10px -70px 5px;
+}
+
+.menu{
+    width: 200px;
+    height: auto;
+    float: left;
+    padding: 25px 0;
+}
+.menu a{
+    display: block;
+    text-align: left;
+    padding: 9px 10px 0 25px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+}
+/* Admin menu */
+.menu a.a_m{
+    width: 100px;
+}
+.menu a.add_cat{
+    float: right;
+    text-align: left;
+	margin: -25px 41px 0 0;
+    color: #f37;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: italic;
+}
+.menu a.add_item{
+    float: right;
+    text-align: left;
+    margin: -25px 74px 0 0;
+    color: #f37;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: italic;
+}
+.menu a.add_user{
+    float: right;
+    text-align: left;
+    margin: -25px 72px 0 0;
+    color: #f37;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: italic;
+}
+.menu a.add_cat:hover{
+	margin: -25px 44px 0 0;
+    text-decoration: none;
+}
+.menu a.add_item:hover{
+    margin: -25px 77px 0 0;
+    text-decoration: none;
+}
+.menu a.add_user:hover{
+    margin: -25px 75px 0 0;
+    text-decoration: none;
+}
+/* End of admin menu */
+.menu a:hover{
+    text-decoration: underline dodgerblue;
+}
+.content{
+    float: left;
+    margin: 0px 0px 0 0px;
+    width: 824px;
+    min-height: 350px;
+    background: #F2F2F2;
+    text-align: left;
+    padding-bottom: 11px;
+}
+.index_margin{
+    margin: 0px 0px 0 120px;
+}
+.index_margin2{
+    float:right;
+     margin: 0px -120px 0 120px;
+}
+.content *{
+    text-align: left;
+}
+.footer{
+    height: 80px;
+    color: #5476A4;
+}
+/* Category */
+.content .item{
+    width: 260px;
+    height: 240px;
+    float: left;
+    margin: 11px 0 0 11px;
+    border-right: 1px solid #676F74;
+    border-bottom: 1px solid #676F74;
+}
+.item h2{
+    float: right;
+    width: 112px;
+    height: calc(18px * 4);
+    margin: 0 11px 11px;
+    text-align: right;
+}
+.item h2 a{
+    color: #154420;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.item h2 a:hover{
+    text-decoration: underline;
+}
+.item .price{
+    display: block;
+    float: right;
+    width: 112px;
+    margin: -50px 11px 0 0;
+    text-align: right;
+    font-style: italic;
+    font-size: 15px;
+}
+.item input{
+    display: block;
+    float: right;
+    width: 50px;
+    height: 20px;
+    margin: -25px 11px 0 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #e12;
+    border: 1px solid #888;
+}
+.item .desc{
+    text-align: left;
+    font-size: 14px;
+    padding-top: 15px;
+}
+.item img{
+    width: 125px;
+    height: auto;
+}
+/* Landing */
+.content h3{
+    display: block;
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding-top: 25px;
+    font-size: 25px;
+}
+.content .catt{
+    width: 802px;
+    height: 250px;
+    margin: 20px 0 0 11px;
+    padding-bottom: 11px;
+    border-right: 1px solid #C7CFD4;
+    border-bottom: 1px solid #C7CFD4;
+}
+.catt img{
+    width: 160px;
+    height: auto;
+}
+.catt h4{
+    float: right;
+    width: 530px;
+    margin: -10px 0 20px 11px;
+    text-align: center;
+}
+.catt h4 a{
+    color: #154420;
+    font-size: 20px;
+    line-height: 28px;
+}
+.catt h4 a:hover{
+    text-decoration: underline;
+}
+.catt .desc{
+    display: block;
+    float: right;
+    width: 530px;
+    margin: -145px 11px 11px 11px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 23px;
+}
+/* Item */
+.content .item_page{
+    width: 802px;
+    margin: 11px 0 0 11px;
+    padding-right: 15px;
+    border-right: 1px solid #B7BFC4;
+    border-bottom: 1px solid #B7BFC4;
+}
+.item_page .price{
+    display: inline;
+    width: 150px;
+    height: 30px;
+    margin: 0 0 0 55px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+}
+.item_page input{
+    display: inline;
+    width: 50px;
+    height: 20px;
+    margin: 0 0 0 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #e12;
+    border: 1px solid #888;
+}
+.item_page .desc{
+    display: block;
+    float: right;
+    width: 510px;
+    font-size: 16px;
+    /*padding-top: 15px;*/
+}
+.item_page img{
+    width: 250px;
+    height: auto;
+}
+/*AdminPanel*/
+/*Cats, Items & Users lists administration*/
+.cat_list{
+    width: 802px;
+    margin: 11px 0 0 11px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #B7BFC4;
+    text-align: left;
+}
+.cat_list:last-child{
+    border-bottom: none;
+}
+.cat_list *{
+    display: inline-block;
+    float: none;
+    margin-right: 10px;
+}
+.cat_list img{
+    width: 40px;
+    height: auto;
+    margin-bottom: -11px;
+}
+.cat_list a{
+    font-size: 22px;
+    font-weight: bold;
+    color: #345;
+}
+.cat_list p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #345;
+}
+.cat_list span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #956;
+}
+.cat_list .pic{
+    width: 20px;
+    height: auto;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+.cat_list .item_l{
+    cursor: default;
+}
+/*Add item/cat/user*/
+.content .add{
+    width: 802px;
+    margin: 11px 0 0 11px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #B7BFC4;
+    text-align: left;
+}
+.content .add p{
+    font-size: 16px;
+    line-height: 25px;
+    padding: 5px 20px;
+}
+.content .add .btt{
+    padding: 5px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.content .add .inp{
+    padding: 2px 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.content .add .btt2{
+    padding: 5px 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+/*Edit item/cat/user*/
+.content .add .id_img{
+    width: 100px;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.content form{
+    margin: 40px 0 0 11px;
+    color: black;
+    font-size: 15px;
+    font-weight: 1000;
+    font-style: italic;
+}
+
+
+
+/*LOGIN*/
+.input{
+    text-align: center;
+    width: 230px;
+    height: 40px;
+    margin: 30px 0 0 20px;
+    border: 3px solid #5476A4;
+}
+.login_buttom{
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    margin: 20px 0 0 80px;
+    border: 3px solid #5476A4
+}
+
+
+
+
